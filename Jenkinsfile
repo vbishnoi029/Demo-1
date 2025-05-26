@@ -25,5 +25,11 @@ date'''
       }
     }
 
+    stage('deploy') {
+      steps {
+        sleep 30
+      }
+    }
+
   }
 }
