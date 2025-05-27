@@ -19,6 +19,7 @@ date'''
         stage('validate') {
           steps {
             sh 'cal 2025'
+            sh 'sleep 10'
           }
         }
 
